@@ -1,0 +1,30 @@
+{
+  "name": "flavia-dark",
+  "displayName": "Flavia",
+  "description": "Flavia is a minimalistic dark theme for VS code editor.",
+  "version": "0.0.1",
+  "publisher": "ShahAbulKalam",
+  "keywords": [
+    "theme",
+    "dark theme",
+    "flavia",
+    "ShahAbulKalam",
+    "flavia dark",
+    "shah abul kalam"
+  ],
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Flavia",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Flavia-color-theme.json"
+      }
+    ]
+  }
+}
