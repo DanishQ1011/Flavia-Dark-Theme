@@ -1,16 +1,75 @@
-# flavia-dark README
+<p align="center">
+  <img alt="Flavia Logo" src="/images/logo.png" width="100" />
+</p>
+<h1 align="center">
+  Flavia Theme for VS Code
+</h1>
+<p align="center">
+  A minimalistic dark theme for <a href="https://halcyon-theme.netlify.com/">VS Code and Sublime Text editors</a>.
+</p>
 
-## Working with Markdown
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+![demo](/images/demo.png)
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Installation via VS Code
 
-## For more information
+1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
+2. Search for `Flavia`
+3. Click **Install** to install it
+4. Click **Reload** to reload the editor
+5. Code > Preferences > Color Theme > **Flavia**
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Manual Installation
 
-**Enjoy!**
+Read the [VSC Extension Quickstart Guide](https://github.com/DanishQ1011/Flavia-Dark-Theme/blob/main/vsc-extension-quickstart.md)
+
+## Icon Theme
+
+The file icon theme seen in the screenshot above is [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) with these settings:
+
+```json
+  "material-icon-theme.folders.color": "#8695b7",
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.hidesExplorerArrows": true,
+```
+
+## Color Reference
+
+### Syntax Colors
+
+|                               Color                                | Usage                                           |
+| :----------------------------------------------------------------: | ----------------------------------------------- |
+| ![#ffa7a6](https://via.placeholder.com/10/ffa7a6.png?text=+) `#ffa7a6` | Variables, properties          |
+| ![#6ff254](https://via.placeholder.com/10/6ff254.png?text=+) `#6ff254` | Keywords         |
+| ![#aa2fbc](https://via.placeholder.com/10/aa2fbc.png?text=+) `#aa2fbc` | Numbers                            |
+| ![#ff00a7](https://via.placeholder.com/10/ff00a7.png?text=+) `#ff00a7` | Classes, constants                      |
+| ![#009bdb](https://via.placeholder.com/10/009bdb.png?text=+) `#009bdb` | Function, methods |
+| ![#ffdf35](https://via.placeholder.com/10/ffdf35.png?text=+) `#ffdf35` | Strings                 |
+| ![#00776c](https://via.placeholder.com/10/00776c.png?text=+) `#00776c` | Operators, special functions                 |
+
+### UI Colors
+
+|                               Color                                | Usage                                      |
+| :----------------------------------------------------------------: | ------------------------------------------ |
+| ![#171c28](https://via.placeholder.com/10/171c28.png?text=+) `#171c28` | Workbench background                       |
+| ![#1d2433](https://via.placeholder.com/10/1d2433.png?text=+) `#1d2433` | Editor background                          |
+| ![#2f3b54](https://via.placeholder.com/10/2f3b54.png?text=+) `#2f3b54` | Highlight, widgets, panels                 |
+| ![#6679a4](https://via.placeholder.com/10/6679a4.png?text=+) `#6679a4` | Dividers, subtle UI elements               |
+| ![#8695b7](https://via.placeholder.com/10/8695b7.png?text=+) `#8695b7` | Status bar text, buttons, etc              |
+| ![#d7dce2](https://via.placeholder.com/10/d7dce2.png?text=+) `#d7dce2` | Active text, anything that should be white |
+| ![#ffcc66](https://via.placeholder.com/10/ffcc66.png?text=+) `#ffcc66` | Accent, list tree titles, badges, etc      |
+| ![#bae67e](https://via.placeholder.com/10/bae67e.png?text=+) `#bae67e` | Addition highlights                        |
+| ![#ef6b73](https://via.placeholder.com/10/ef6b73.png?text=+) `#ef6b73` | Deletion highlights, errors, warnings      |
+| ![#5ccfe6](https://via.placeholder.com/10/5ccfe6.png?text=+) `#5ccfe6` | Modified highlights                        |
+
+## Theming Reference
+
+[VS Code Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference)
+
+[VS Code Theme Documentation](https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers)
+
+[VS Code Publishing Extensions](https://code.visualstudio.com/docs/extensions/publish-extension)
+
+```bash
+vsce publish patch/minor/major
+```
