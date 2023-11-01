@@ -51,11 +51,10 @@ The file icon theme seen in the screenshot above is [Material Icon Theme](https:
 
 |                               Color                                | Usage                                      |
 | :----------------------------------------------------------------: | ------------------------------------------ |
-| ![#171c28](https://via.placeholder.com/10/171c28.png?text=+) `#171c28` | Workbench background                       |
-| ![#1d2433](https://via.placeholder.com/10/1d2433.png?text=+) `#1d2433` | Editor background                          |
-| ![#2f3b54](https://via.placeholder.com/10/2f3b54.png?text=+) `#2f3b54` | Highlight, widgets, panels                 |
+| ![#1b1b27](https://via.placeholder.com/10/1b1b27.png?text=+) `#1b1b27` | Editor background                          |
+| ![#101019](https://via.placeholder.com/10/101019.png?text=+) `#101019` | Highlight, widgets, panels                 |
 | ![#6679a4](https://via.placeholder.com/10/6679a4.png?text=+) `#6679a4` | Dividers, subtle UI elements               |
-| ![#8695b7](https://via.placeholder.com/10/8695b7.png?text=+) `#8695b7` | Status bar text, buttons, etc              |
+| ![#28b95c](https://via.placeholder.com/10/28b95c.png?text=+) `#28b95c` | Status bar text, buttons, etc              |
 | ![#d7dce2](https://via.placeholder.com/10/d7dce2.png?text=+) `#d7dce2` | Active text, anything that should be white |
 | ![#ffcc66](https://via.placeholder.com/10/ffcc66.png?text=+) `#ffcc66` | Accent, list tree titles, badges, etc      |
 | ![#bae67e](https://via.placeholder.com/10/bae67e.png?text=+) `#bae67e` | Addition highlights                        |
